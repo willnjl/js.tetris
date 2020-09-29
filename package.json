@@ -1,0 +1,24 @@
+{
+  "name": "jstetris",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://willnjl.github.io/js.tetris/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willnjl/js.tetris.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willnjl/js.tetris/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
