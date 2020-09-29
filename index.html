@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>tetris game</title>
+        <script src="app.js" defer='defer'></script>
+        <script src="move.js" defer='defer'></script>
+        <link rel="stylesheet" href="style.css"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+       
+      <div class="page__wrapper"> 
+        <div class='container'>
+            <div class="grid">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="taken" id="bottom" ></div>
+                <div class="taken" id="bottom"></div>
+                <div class="taken" id="bottom"></div>
+                <div class="taken" id="bottom"></div>
+                <div class="taken" id="bottom"></div>
+                <div class="taken" id="bottom"></div>
+                <div class="taken" id="bottom"></div>
+                <div class="taken" id="bottom"></div>
+                <div class="taken" id="bottom"></div>
+                <div class="taken" id="bottom"></div>
+            </div>
+                
+                <div class="HUD">
+                    <div id='mini-grid-container'>
+                        <div class='mini-grid'>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            
+                            
+                    </div>
+                    
+                </div>
+                    <div class='controls no_padding border_style_controls' id="emoji__gen">
+                        <span id='response'></span>
+                    </div>
+                    <div class="controls border_style_controls no_padding centre">
+                        <span id="score" class="inline">0</span>
+                    </div>
+                    <div class= "">
+                        <button class="controls border_style_controls centre hover" id="start_button">Start Game</button>
+                    </div>
+                    <div class="">
+                        <button class="controls border_style_controls centre hover"id="activateCheats">Activate Cheats</button>
+                    </div>
+                    <div class="controls hidden no_padding" id='cheats'>
+                        <button class="border_style_controls" id="dev_complete_row">Complete Row</button>
+                        <button  class="border_style_controls" id="dev_complete_four">Complete 4</button>
+                    </div>
+        
+                </div>
+                                
+            </div>
+            </div>
+            
+
+           
+
+            
+
+    </div>
+       
+
+
+        </body>
+
+</html>
