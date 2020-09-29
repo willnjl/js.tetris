@@ -2,7 +2,6 @@
   "name": "jstetris",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://willnjl.github.io/js.tetris/",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,6 +17,7 @@
   "bugs": {
     "url": "https://github.com/willnjl/js.tetris/issues"
   },
+  "homepage": "https://willnjl.github.io/js.tetris/",
   "dependencies": {
     "gh-pages": "^3.1.0"
   }
